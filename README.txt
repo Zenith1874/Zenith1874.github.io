@@ -1,31 +1,54 @@
-Stellar by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Zheng Cui's Portfolio Website
 
+Welcome to the repository for Zheng Cui's portfolio website. This project showcases my academic background, professional experience, and projects, including my Master's group project in Computer Science.
 
-Say hello to Stellar, a slick little one-pager with a super vibrant color palette (which
-I guess you can always tone down if it's a little too vibrant for you), a "sticky" in-page
-nav bar (powered by my Scrollex plugin), a separate generic page template (just in case
-you need one), and an assortment of pre-styled elements.
+## Table of Contents
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Projects Highlighted](#projects-highlighted)
+- [Contributing](#contributing)
+- [Contact Information](#contact-information)
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+---
 
-(* = not included)
+## About the Project
 
-AJ
-aj@lkn.io | @ajlkn
+This portfolio website is designed to:
+- Share my academic and professional background.
+- Highlight projects I've worked on, including individual and group projects.
+- Provide an easily accessible resume and contact information.
 
+The live website is hosted on [GitHub Pages](https://zenith1874.github.io).
 
-Credits:
+---
 
-	Demo Images:
-		Unsplash (unsplash.com)
+## Features
 
-	Icons:
-		Font Awesome (fontawesome.io)
+- **Home Page**: Introduction and brief bio, including contact information.
+- **Projects**: Detailed sections on group projects and individual projects.
+- **Resume**: Link to my up-to-date CV in PDF format.
+- **Contact**: Email, phone, and GitHub information for easy communication.
+- **Responsive Design**: Mobile and desktop-friendly layout.
 
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+---
+
+## Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **GitHub Pages**: Hosting platform
+- **YouTube Integration**: Embedded video demonstrations
+- **Google Docs & Slides**: Linked documents for detailed project components
+
+---
+
+## Setup and Installation
+
+To run this website locally:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Zenith1874/Zenith1874.github.io.git
