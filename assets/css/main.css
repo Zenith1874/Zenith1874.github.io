@@ -3681,29 +3681,28 @@ input, select, textarea {
 
 /* Footer */
 
-	#footer {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-flex-wrap: wrap;
-		-webkit-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
-		padding: 5em 5em 3em 5em ;
-		width: calc(100% + 2em);
-		margin: 0 0 3em -2em;
-	}
+#footer {
+    width: 64em; /* 和 #wrapper 一致 */
+    max-width: calc(100% - 4em); /* 和 #wrapper 一致 */
+    margin: 0 auto; /* 居中 */
+    padding: 20px 0; /* 可根据需求调整 */
+    text-align: center; /* 文本居中 */
+}
 
-		#footer > * {
+		/* #footer > * {
 			width: calc(50% - 2em);
 			margin-left: 2em;
+		} */
+        #footer > * {
+			width: 100%;
+			margin-left: 0;
 		}
-
+		
 		#footer .copyright {
 			width: 100%;
 			margin: 2.5em 0 2em 0;
 			font-size: 0.8em;
+			color: #555;
 			text-align: center;
 		}
 
@@ -3731,13 +3730,13 @@ input, select, textarea {
 				}
 
 				#footer .copyright {
-					text-align: left;
+					flex: 1 1 100%;
+					text-align: center;
 				}
 
 		}
 
 		@media screen and (max-width: 736px) {
-
 			#footer {
 				padding: 3em 2em 1em 2em ;
 			}
